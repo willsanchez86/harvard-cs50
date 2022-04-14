@@ -1,0 +1,11 @@
+sort1 uses: Bubble 
+
+How do you know?: Although Ubble and Selection sort both have a general O(n^2), the true formula actually places bubble sorts worst case run time higher than selection sort, with the exception of data sets that are already merged. sort1 had the highest run time across all random/reversed data sets compared to selection, but much faster run times for the sorted data sets.
+
+sort2 uses: Merge
+
+How do you know?: Merge sort has a theta(n log n), which is lower than the both the omegas of Bubble sort(n) and Selection Sort (n^2). With this in mind, Merge sort will have the fastest run time on every data set. The fastest run times were found in sort2. 
+
+sort3 uses: Selection
+
+How do you know?: Because Selection sort has a theta(n^2), we know that the run times will always remain proportional across all data sets of any type. Sort3 matched this behavior. 
