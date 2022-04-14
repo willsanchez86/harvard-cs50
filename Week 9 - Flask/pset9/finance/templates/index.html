@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h1 class="mb-6">Portfolio</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>$ Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in portfolio %}
+                <tr>
+                    <td>{{row["symbol"]}}</td>
+                    <td>{{row["description"]}}</td>
+                    <td>{{row["current_price"]}}</td>
+                    <td>{{row["quantity"]}}</td>
+                    <td>${{row["dollar_value"]}}</td>
+                </tr>
+                {% endfor %}
+                <tr>
+                    <td>{{cash | usd}}</td>
+                    <td>{{value | usd}}
+                    <td>{{amount | usd}}
+                    <td>{{sale_amount | usd}}</td>
+                </tr>
+        </table>
+{% endblock %}

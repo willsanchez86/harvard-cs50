@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <h1 class="mb-6">Portfolio</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>DateTime</th>
+                    <th>Activity</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>$ Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in transactions %}
+                <tr>
+                    <td>{{row["datetime"]}}</td>
+                    <td>{{row["activity"]}}</td>
+                    <td>{{row["symbol"]}}</td>
+                    <td>{{row["description"]}}</td>
+                    <td>{{row["price"]}}</td>
+                    <td>{{row["quantity"]}}</td>
+                    <td>${{row["amount"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+{% endblock %}

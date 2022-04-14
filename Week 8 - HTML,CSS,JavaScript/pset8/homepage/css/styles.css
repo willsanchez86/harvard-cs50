@@ -1,0 +1,331 @@
+
+body{
+    font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.jumbotron {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  background-size: cover;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 1% 0%;
+}
+
+
+/* Headings */
+
+.big-banner{
+    height: 90vh;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/57ab98a2ff7c50c35fb051f2/1552316672569-Z0Z2QH74SWPGU9EJ8C07/2019_DES_0226rm_00166+copy.jpg?format=750w");
+}
+
+
+.navbar{
+    padding: 0 0 2rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+#name {
+    font-color: white;
+    padding: 25% 10%;
+    background: rgba(0,0,0, .5);
+}
+
+/* About Me */
+#about {
+    background-color: #000000;
+    color: white;
+    padding: 5% 0% 15% 0%;
+}
+
+.profile-img-container {
+    display: flex;
+    justify-content: right;
+}
+
+#profile-pic{
+    border-radius: 60%;
+}
+
+.profile-txt-container {
+    display: flex;
+    justify-content: left;
+}
+/* Projects */
+#projects {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+/* Coding Challenges */
+#challenges {
+    background-color: #ffffff;
+    color: white;
+}
+/* Contact Me */
+#contact {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.effect-1 {
+    border: 0;
+    margin: 0.8rem;
+    outline: None;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .Focus-border {
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: darkmagenta;
+    transition: 0.4s;
+}
+
+.head {
+    background-color: darkmagenta;
+    border-radius: 5px;
+    margin-top: -35px;
+    -webkit-box-shadow: -3px 7px 32px -11px rgba(201,56,201,1);
+    -moz-box-shadow: -3px 7px 32px -11px rgba(201,56,201,1);
+    box-shadow: -3px 7px 32px -11px rgba(201,56,201,1);
+}
+
+
+.btn1 {
+    background: darkmagenta;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 145px;
+    margin-left: 1.25rem;
+}
+
+
+.contact-btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Features Section */
+
+#features {
+    padding: 7% 10%;
+    color: #fff;
+    position: relative;
+}
+
+
+.feature-set{
+    text-align: center;
+    font-family: "Montserrat-Bold";
+}
+
+
+.feature-description{
+    text-align: center;
+    color: #8f8f8f;
+    margin: 0;
+}
+
+.feature-img{
+    font-size: 3.5rem;
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.feature-img:hover{
+    color: #ff4c68;
+}
+
+
+
+
+/* Testimonials Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+        padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat-Bold";
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+
+/* Call to Action Section */
+
+#cta{
+    font-family: "Montserrat-Black";
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%
+}
+
+.call-to-action{
+    color: white;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 3rem;
+    margin: 40px
+}
+
+
+/* Footer Section */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: "Montserrat-Bold";
+}
+
+.footer-icon{
+    padding: 1rem 0.5rem;
+}
