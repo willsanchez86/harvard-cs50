@@ -1,5 +1,4 @@
-# Harvard CS50
-## Introduction to Computer Science
+# Harvard CS50 - Intro to Computer Science
 
 ### Week 0 Scratch
 ### Week 1 C
